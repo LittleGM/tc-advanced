@@ -3,10 +3,21 @@
 	<children>
 		<child name="Script" key="{07C12560-F86A-473D-B821-0A82F5156E5B}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{D2DD7B36-D6D3-4B73-A544-DEC8C5C95382}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="TestedApps" key="{9FFD3096-ABCA-4AED-9B0B-24B3402CD1D2}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="NameMapping" key="{8D7BBFA6-BEC8-498A-AB56-D4A52CCACF0B}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{9FC574B9-3B0A-4687-A3AF-ED10CEE7D0FA}" version="14">
-		<children />
+		<children>
+			<testItem name="test" key="{D246B022-BCD2-4B4A-86A9-D30E0F8CD98C}" group="False" enabled="True" testMoniker="{554F4A84-6136-4577-8B68-8FB41E11A5C2}test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="Test1" key="{F0D105A2-8876-41C5-B7BB-98254B5A6E2F}" group="False" enabled="True" testMoniker="KDT\{05B6C225-9A2D-4297-86AB-F351667EE505}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{1F6F2F3D-D04D-4AD8-9E87-9D5B1E2DD217}">
 		<data Version="3" />
