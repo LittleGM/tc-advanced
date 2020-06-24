@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{D79607B1-A8B1-428C-8BB0-009851DF3FBE}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad" Key="{13BD9984-C493-49ED-AF9A-3338E1F0BA8E}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="notepad" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgFont" Key="{6B9ACC46-9814-46D3-AD9C-7767983E289F}" ParallelWalk="True">
+								<Image FileName="-1773965855" Left="0" Top="0" Right="504" Bottom="632" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Font" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFont" Key="{EAFBBA25-BF75-4C64-B94A-BF6D6C8866C3}" ParallelWalk="True">
+										<Image FileName="-1773965855" Left="23" Top="78" Right="219" Bottom="249" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{60059EA0-D9C9-4913-A066-61BE6D1AF51B}" ParallelWalk="True">
+												<Image FileName="-1773965855" Left="26" Top="81" Right="216" Bottom="102" />
+												<TypeInfo Item0="{F31C42D8-991D-47A1-8F46-9B387C4534DB}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="cbxFontStyle" Key="{E2B80D3B-DBA7-4B61-A94D-AD6AE4E46BFE}" ParallelWalk="True">
+										<Image FileName="2095303522" Left="237" Top="78" Right="385" Bottom="268" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="2" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{68780EBB-CD16-413A-BF68-4759A68D3A4B}" ParallelWalk="True">
+												<Image FileName="2095303522" Left="240" Top="81" Right="382" Bottom="102" />
+												<TypeInfo Item0="{F31C42D8-991D-47A1-8F46-9B387C4534DB}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="cbxSize" Key="{82629EED-404A-4641-8DA8-35ED37FF6240}" ParallelWalk="True">
+										<Image FileName="884187972" Left="405" Top="78" Right="477" Bottom="249" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="3" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{4D4ED81A-AF63-4D99-8302-DAFAAD578D8F}" ParallelWalk="True">
+												<Image FileName="884187972" Left="408" Top="81" Right="474" Bottom="102" />
+												<TypeInfo Item0="{F31C42D8-991D-47A1-8F46-9B387C4534DB}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnOK" Key="{07D3560F-99F3-4E68-B674-278A1B3AFA2F}" ParallelWalk="True">
+										<Image FileName="-384616395" Left="291" Top="576" Right="381" Bottom="611" />
+										<TypeInfo Item0="{2528D4BF-EA05-4598-B8FA-195F1A2E0B1C}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndNotepad" Key="{00413959-95E3-4971-87FC-3B42CF744D7B}" ParallelWalk="True">
+								<Image FileName="517382313" Left="0" Top="0" Right="1299" Bottom="753" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Notepad" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Edit" Key="{12F46E7A-B444-496E-A690-7981789D6CED}" ParallelWalk="True">
+										<Image FileName="1016412713" Left="9" Top="63" Right="1290" Bottom="715" />
+										<TypeInfo Item0="{F31C42D8-991D-47A1-8F46-9B387C4534DB}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgNotepad" Key="{89036C97-B2C3-4103-B83C-CC668B77A48B}" ParallelWalk="True">
+								<Image FileName="-303524299" Left="0" Top="0" Right="458" Bottom="177" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Notepad" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Notepad" Key="{FFCCAFD6-BCF8-410F-8AED-3B4A29892D99}" ParallelWalk="True">
+										<Image FileName="-303524299" Left="9" Top="38" Right="449" Bottom="168" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="DirectUI" Type="5" />
+											</Property>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TaskDialog" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="pane" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="Notepad" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{CC4F0775-B6F3-4DAE-BCB0-91D513050522}" ParallelWalk="True">
+												<Image FileName="-303524299" Left="227" Top="128" Right="341" Bottom="157" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="CtrlNotifySink" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+													<Property Name="Index">
+														<Value PropertyType="0" Value="8" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnDontSave" Key="{6D8E0731-20A3-4528-B35B-30627DA85FB0}" ParallelWalk="True">
+														<Image FileName="-303524299" Left="227" Top="128" Right="341" Bottom="157" />
+														<TypeInfo Item0="{2528D4BF-EA05-4598-B8FA-195F1A2E0B1C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Do&amp;n&apos;t Save" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="notepad" Owner="{13BD9984-C493-49ED-AF9A-3338E1F0BA8E}">
+			<Child Name="dlgFont" Owner="{6B9ACC46-9814-46D3-AD9C-7767983E289F}">
+				<Child Name="cbxFont" Owner="{EAFBBA25-BF75-4C64-B94A-BF6D6C8866C3}">
+					<Child Name="Edit" Owner="{60059EA0-D9C9-4913-A066-61BE6D1AF51B}" />
+				</Child>
+				<Child Name="cbxFontStyle" Owner="{E2B80D3B-DBA7-4B61-A94D-AD6AE4E46BFE}">
+					<Child Name="Edit" Owner="{68780EBB-CD16-413A-BF68-4759A68D3A4B}" />
+				</Child>
+				<Child Name="cbxSize" Owner="{82629EED-404A-4641-8DA8-35ED37FF6240}">
+					<Child Name="Edit" Owner="{4D4ED81A-AF63-4D99-8302-DAFAAD578D8F}" />
+				</Child>
+				<Child Name="btnOK" Owner="{07D3560F-99F3-4E68-B674-278A1B3AFA2F}" />
+			</Child>
+			<Child Name="wndNotepad" Owner="{00413959-95E3-4971-87FC-3B42CF744D7B}">
+				<Child Name="Edit" Owner="{12F46E7A-B444-496E-A690-7981789D6CED}" />
+			</Child>
+			<Child Name="dlgNotepad" Owner="{89036C97-B2C3-4103-B83C-CC668B77A48B}">
+				<Child Name="Notepad" Owner="{FFCCAFD6-BCF8-410F-8AED-3B4A29892D99}">
+					<Child Name="CtrlNotifySink" Owner="{CC4F0775-B6F3-4DAE-BCB0-91D513050522}">
+						<Child Name="btnDontSave" Owner="{6D8E0731-20A3-4528-B35B-30627DA85FB0}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
